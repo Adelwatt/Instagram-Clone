@@ -76,5 +76,15 @@ export default Top;
 |flexDirection: "row" - allow us to order items by row instead of  column (default behavior)
 |
 |zIndex: 100 - we use it if we want to make elements appear infront of another elements
+|
+|There are two ways to import a file to use in another file, for example we use Users.js inside Stories.js:
+| 1. to define it in regular way and use export default "or" 2. to define it as export const .. and in the stories.js
+| to use import {USERS} instead of import USERS
+|
+| SCROLLVIEW
+|
+| ANOTHER WAY TO ADD AN IMAGE:   <Image style = {styles.storie} source = {{uri: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}} />
+|
+| Divider tag from the package react-native-elements
 |--------------------------------------------------
 */
