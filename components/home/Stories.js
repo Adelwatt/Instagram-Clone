@@ -14,12 +14,12 @@ const Stories = () => {
                             </View>
                         </TouchableOpacity>
                         <Image style = {styles.storie} source = {{uri: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}} />
-                        <Text style = {{color: "white", alignSelf: "center"}}>Your Story</Text>
+                        <Text style = {{color: "black", alignSelf: "center"}}>Your Story</Text>
                     </View>
                     {USERS.map((story, index) => (
                         <View key={index}>
                             <Image style = {styles.storie} source = {{uri: `${story.image}`}} />
-                            <Text style = {{color: "white" , alignSelf: "center"}}> {
+                            <Text style = {{color: "black" , alignSelf: "center"}}> {
                                 story.userName.length > 12 ? story.userName.slice(0, 10) + "..." : story.userName} 
                             </Text>
                         </View>
@@ -36,8 +36,8 @@ const styles = StyleSheet.create({
         borderColor: "coral",
         borderWidth: 4,
         borderRadius: 50,
-        width: 100,
-        height: 100,
+        width: 90,
+        height: 90,
         marginLeft: 10,
         marginBottom: 10
     },
@@ -57,8 +57,8 @@ const styles = StyleSheet.create({
         height: 20,
         backgroundColor: "dodgerblue",
         position: "absolute",
-        top: 75,
-        left: 80,
+        top: 70,
+        left: 75,
         zIndex: 180
     }
 });
