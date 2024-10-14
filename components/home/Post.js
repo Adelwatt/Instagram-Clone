@@ -26,10 +26,10 @@ const Post = () => {
 
 const Styles = StyleSheet.create({
     container: {
-        marginVertical: 15
+        marginVertical: 5
     },
     divider: {
-        marginVertical: 10
+        marginVertical: 5
     }
 });
 

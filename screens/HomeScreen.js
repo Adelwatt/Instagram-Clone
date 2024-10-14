@@ -15,9 +15,7 @@ const HomeScreen = () => {
                     <Post />
                 </ScrollView>
             </View>
-            <View>
-                <BottomTab />
-            </View>
+            <BottomTab />
         </SafeAreaView>
     );
 }

@@ -23,7 +23,7 @@ const Top = () => {
                 <View style={styles.icon}>
                     <TouchableOpacity>
                         <View style={styles.unreadBadge}>
-                            <Text style={[{color: "black"}, {alignSelf: 'center'}]}>11</Text>
+                            <Text style={[{color: "white"}, {alignSelf: 'center'}]}>11</Text>
                         </View>
                         <Feather name="message-circle" size={24} color="black" />
                     </TouchableOpacity>
